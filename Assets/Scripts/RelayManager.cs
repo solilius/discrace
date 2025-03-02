@@ -18,6 +18,7 @@ public class RelayManager : MonoBehaviour
     {
         await UnityServices.InitializeAsync();
         await AuthenticationService.Instance.SignInAnonymouslyAsync();
+        Debug.Log($"SignedInAnonymously");
     }
 
     public async void StartHost()
