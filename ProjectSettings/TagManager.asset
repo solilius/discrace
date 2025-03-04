@@ -2,8 +2,9 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -38,6 +39,26 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Back 1
+    uniqueID: 3913888579
+    locked: 0
+  - name: Back 2
+    uniqueID: 2124866181
+    locked: 0
+  - name: Back 3
+    uniqueID: 2797448043
+    locked: 0
+  - name: Back 4
+    uniqueID: 2929946431
+    locked: 0
+  - name: Back 5
+    uniqueID: 330704435
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Topmost Objects
+    uniqueID: 2301548313
+    locked: 0
+  m_RenderingLayers:
+  - Default
